@@ -1,0 +1,5 @@
+footer {
+  width: 100%;
+  background-image: linear-gradient(darkblue, darkcyan);
+  min-height: 140px;
+}
