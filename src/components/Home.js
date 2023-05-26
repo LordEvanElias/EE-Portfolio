@@ -17,7 +17,7 @@ const Home = () => {
 
           <div className=" flex flex-col items-center justify-center pr-10 max-lg:pr-0 max-lg:pb-20">
             <img style={{ height: "360px", width: "360px" }} src={placeHolder} />
-            <TextInfo text="Evan Elias: A Full Stack Developer" buttonText="More About Me" link="/project" />
+            <TextInfo text="Evan Elias: A Full Stack Developer" buttonText="More About Me" link="/about" />
           </div>
         </div>
       </div>
