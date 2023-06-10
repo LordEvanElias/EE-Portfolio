@@ -9,7 +9,7 @@ const Home = () => {
     <div className="relative">
       <img className="max-lg:h-[75rem]" style={{ height: "1250px", width: "100%" }} src={homePagePhoto} />
 
-      <div className="absolute top-7 mt-4 w-full ">
+      <div className="absolute top-7 mt-4   w-full ">
         <div className="flex justify-around align-middle max-lg:flex-col max-lg:justify-center">
           <div className="flex flex-col items-center justify-center ">
             <TextInfo title="Here is a sample of my projects:" text="A mock up of the Ocean Buddies page." buttonText="See Other Projects" link="/project" />
