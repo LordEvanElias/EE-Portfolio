@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/project" element={<Project />}></Route>
+            
           </Routes>
         </div>
         <Footer />

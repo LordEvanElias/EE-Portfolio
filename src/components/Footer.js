@@ -19,9 +19,9 @@ const Footer = () => {
         </li>
 
         <li className="px-4">
-          <Link to="/resume">
-            <a>Resume</a>
-          </Link>
+          <button>
+            <a href="https://docs.google.com/document/d/17qQwOk5o7KihS_zxUoHzx1rmB1az9TuRbPxTNFQAOog/edit?usp=sharing">Resume</a>
+          </button>
         </li>
       </ul>
       <ul className="text-white flex flex-row justify-center text-center mt-6 max-md:flex-col">
