@@ -1,14 +1,15 @@
 import React from "react";
+import Github from "../images/github-mark-white.png";
 
 const ProjectImage = (props) => {
   return (
-    <div className="static flex text-white bg-sky-950 items-center pl-4" style={{ height: "18rem", width: "34rem" }}>
+    <div className=" text-white" style={{ height: "18rem", width: "34rem" }}>
       {/* Base Project Image */}
-      <img className="img-source flex  " style={{ height: "16rem", width: "32rem" }} src={props.img} alt="" />
-      {/* Glass Overlay */}
-      <div className="hover:backdrop-blur-md">
+      <div className="hover:blur-md">
+        <img className="img-source" style={{ height: "16rem", width: "32rem" }} src={props.img} alt="" />
+
         {/* Github and website Link */}
-        <div className="git-web-link"></div>
+        <img className="flex flex-row " src={Github} style={{ height: "5rem" }} alt="github-logo" />
       </div>
     </div>
   );
