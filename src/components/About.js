@@ -16,6 +16,9 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className="absolute bottom-4 left-4 text-white">
+        <h3>Image by wirestock on Freepik</h3>
+      </div>
     </div>
   );
 };
