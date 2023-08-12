@@ -4,12 +4,13 @@ import OceanApp from "../images/OceanApp.png";
 import Bikes4u from "../images/Bikes-4-u.png";
 import ProjectImage from "./ProjectImage";
 
+
 const Project = () => {
   return (
-    <div className="relative flex justify-around items-center">
+    <div className="relative flex align-middle justify-around items-center">
       <img className="max-lg:h-[75rem]" style={{ height: "1250px", width: "100%" }} src={projectPagePhoto} />
 
-      <div className="absolute flex flex-wrap">
+      <div className="absolute flex flex-wrap color text-white items-center place-content-center ">
         <ProjectImage img={OceanApp} />
         <ProjectImage img={Bikes4u} />
       </div>
