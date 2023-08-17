@@ -2,6 +2,7 @@ import React from "react";
 import projectPagePhoto from "../images/breathtaking-scenery-milky-way-italian-alps.jpg";
 import placeHolder from "../images/placeHolder.png";
 import "./About.module.css";
+import certificate from "../images/certificate.png";
 
 const About = () => {
   return (
@@ -15,6 +16,11 @@ const About = () => {
             <h1>Hello, my name is Evan Elias. I am a bilingual Full Stack Developer. I am interested in a career working for companies that help the world in some way. </h1>
           </div>
         </div>
+
+        <div className="relative flex place-content-center pt-10 ">
+          <img style={{ height: "528px", width: "814px" }} src={certificate} />
+        </div>
+
       </div>
       <div className="absolute bottom-4 left-4 text-white">
         <h3>Image by wirestock on Freepik</h3>

@@ -10,15 +10,15 @@ const Home = () => {
     <div className="relative">
       <img className="max-lg:h-[75rem]" style={{ height: "1250px", width: "100%" }} src={homePagePhoto} />
 
-      <div className="absolute top-7 mt-4   w-full ">
+      <div className="absolute top-7 mt-4 w-full ">
         <div className="flex justify-around align-middle max-lg:flex-col max-lg:justify-center">
           <div className="flex flex-col items-center justify-center text-white">
-            <h1>Here is a sample project</h1>
-            <img style={{ height: "360px", width: "360px" }} src={OceanApp} />
+            <h1 className="font-bold pb-1">Ocean Buddies Charity Page </h1>
+            <img style={{ height: "16rem", width: "32rem" }} src={OceanApp} />
             <TextInfo buttonText="See Other Projects" link="/project" />
           </div>
 
-          <div className=" flex flex-col items-center justify-center pr-10 max-lg:pr-0 max-lg:pb-20">
+          <div className=" flex flex-col items-center justify-center pr-10 max-lg:pr-0 max-lg:pb-20 ">
             <img style={{ height: "360px", width: "360px" }} src={placeHolder} />
             <TextInfo text="Evan Elias: A Full Stack Developer" buttonText="More About Me" link="/about" />
           </div>

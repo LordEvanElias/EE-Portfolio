@@ -7,6 +7,7 @@ const ProjectImage = (props) => {
   return (
     <div className="text-white" style={{ height: "18rem", width: "34rem" }}>
       {/* Base Project Image */}
+
       <div className="flex items-center justify-around flex-wrap">
         <img className="img-source" style={{ height: "16rem", width: "32rem" }} src={props.img} alt="" />
 
