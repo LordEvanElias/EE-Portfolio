@@ -1,7 +1,7 @@
 import React from "react";
 import Github from "../images/github-mark-white.png";
 import LinkedIn from "../images/linkedin-64.png";
-
+import { Link } from "react-router-dom";
 
 const ProjectImage = (props) => {
   return (
