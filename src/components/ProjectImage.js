@@ -1,6 +1,6 @@
 import React from "react";
 import Github from "../images/github-mark-white.png";
-import LinkedIn from "../images/linkedin-64.png";
+import WebLink from "../images/external-link.png";
 import { Link } from "react-router-dom";
 
 function ExternalLink({ to, children, ...props }) {
@@ -22,7 +22,7 @@ const ProjectImage = (props) => {
         {/* Github and website Link */}
         <div className="absolute flex flex-wrap flex-row">
           <ExternalLink to="//github.com/LordEvanElias">
-            <img className="flex self-center p-1 m-4 hover:p-2" src={LinkedIn} style={{ height: "5rem" }} alt="LinkedIn-logo" />
+            <img className="flex self-center p-1 m-4 hover:p-2" src={WebLink} style={{ height: "5rem" }} alt="LinkedIn-logo" />
           </ExternalLink>
 
           <ExternalLink to="//github.com/LordEvanElias">

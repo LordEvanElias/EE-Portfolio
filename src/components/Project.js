@@ -10,7 +10,7 @@ import WeatherThingy from "../images/WeatherThingy.png";
 const Project = () => {
   return (
     <div className="relative flex align-middle justify-around items-center min-height:calc(100vh - 95px)">
-      <div className="relative flex flex-wrap color text-white items-center place-content-cente" style={{ backgroundImage: `url(${projectPagePhoto})`, height: "1250px", width: "100%", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
+      <div className="relative flex flex-wrap color text-white items-center justify-center pt-6" style={{ backgroundImage: `url(${projectPagePhoto})`, height: "1250px", width: "100%", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
         <ProjectImage img={OceanApp} />
         <ProjectImage img={Bikes4u} />
         <ProjectImage img={C2EZ} />
