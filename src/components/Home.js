@@ -2,7 +2,7 @@ import React from "react";
 import TextInfo from "./TextInfo";
 import homePagePhoto from "../images/3d-render-abstract-tree-landscape-with-space-sky.jpg";
 import OceanApp from "../images/OceanApp.png";
-import placeHolder from "../images/placeHolder.png";
+import mePic from "../images/me-pic.jpg";
 import "./Home.css";
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
           </div>
 
           <div className=" flex flex-col items-center justify-center pr-10 max-lg:pr-0 max-lg:pb-20 ">
-            <img style={{ height: "360px", width: "360px" }} src={placeHolder} />
+            <img style={{ height: "360px", width: "300px" }} src={mePic} />
             <TextInfo text="Evan Elias: A Full Stack Developer" buttonText="More About Me" link="/about" />
           </div>
         </div>

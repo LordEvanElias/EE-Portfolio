@@ -21,11 +21,11 @@ const ProjectImage = (props) => {
 
         {/* Github and website Link */}
         <div className="absolute flex flex-wrap flex-row">
-          <ExternalLink to="//github.com/LordEvanElias">
+          <ExternalLink to={props.SiteLink}>
             <img className="flex self-center p-1 m-4 hover:p-2" src={WebLink} style={{ height: "5rem" }} alt="LinkedIn-logo" />
           </ExternalLink>
 
-          <ExternalLink to="//github.com/LordEvanElias">
+          <ExternalLink to={props.GitLink}>
             <img className="flex self-center p-1 m-4 hover:p-2" src={Github} style={{ height: "5rem" }} alt="github-logo" />
           </ExternalLink>
         </div>

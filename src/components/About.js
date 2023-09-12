@@ -1,6 +1,6 @@
 import React from "react";
 import projectPagePhoto from "../images/breathtaking-scenery-milky-way-italian-alps.jpg";
-import placeHolder from "../images/placeHolder.png";
+import mePic from "../images/me-pic.jpg";
 import "./About.module.css";
 import certificate from "../images/certificate.png";
 
@@ -10,7 +10,7 @@ const About = () => {
       <img className="max-lg:h-[75rem]" style={{ height: "1250px", width: "100%" }} src={projectPagePhoto} />
       <div className="absolute top-7 mt-4 w-1/2 ">
         <div className=" flex flex-row max-lg:flex-col max-lg:items-center border border-solid border-white backdrop-blur-sm">
-          <img style={{ height: "360px", width: "360px" }} src={placeHolder} />
+          <img style={{ height: "360px", width: "360px" }} src={mePic} />
 
           <div className="max-lg:pt-3 max-lg:pb-3 border border-transparent  text-center text-white p-3 font-bold flex items-center w-full  align-middle">
             <h1>

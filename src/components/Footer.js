@@ -4,8 +4,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <ul className="text-white flex flex-row justify-center pt-6 footer-links">
+    <footer className="shrink-0">
+      <ul className="text-white flex flex-row justify-center pt-6 footer-links ">
         <li className="px-4">
           <Link to="/">
             <a>Home</a>
